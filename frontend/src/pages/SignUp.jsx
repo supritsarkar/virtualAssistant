@@ -3,7 +3,7 @@ import bg from "../assets/authBg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
-import { UserDataContext } from "../context/userContext";
+import { UserDataContext } from "../context/UserContext";
 import ClipLoader from "react-spinners/ClipLoader";
 import axios from "axios";
 
